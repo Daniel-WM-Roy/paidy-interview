@@ -1,7 +1,7 @@
 package oneframeinterpreter.oneframe
 
 import oneframeinterpreter.config.AppConfig
-import oneframeinterpreter.model.{CurrencyName, RateRequest}
+import oneframeinterpreter.model.RateRequest
 import oneframeinterpreter.oneframe.internal.{CurrencyRateStorage, OneFrameClient}
 import zio.{ZIO, ZLayer}
 import zio.http.Client
