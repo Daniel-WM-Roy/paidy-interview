@@ -1,7 +1,7 @@
 package oneframeinterpreter.config
 
 import zio.config.typesafe.*
-import zio.{Config, ConfigProvider}
+import zio.{Config, ConfigProvider, ZLayer}
 
 import scala.io.Source
 
@@ -24,4 +24,6 @@ object AppConfig {
         .fromHoconString(confStr)
         .load(AppConfig.configDescriptor)
   }
+  
+  val layer: ZLayer[Any, Config.Error, AppConfig] = ZLayer.fromZIO(loadConfig)
 }

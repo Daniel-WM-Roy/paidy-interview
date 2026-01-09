@@ -11,6 +11,7 @@ libraryDependencies ++= Seq(
   "dev.zio" %% "zio" % "2.1.24",
   "dev.zio" %% "zio-http" % "3.7.4",
   "dev.zio" %% "zio-config" % "4.0.6",
+  "dev.zio" %% "zio-json" % "0.7.45",
   "dev.zio" %% "zio-config-magnolia" % "4.0.6",
   "dev.zio" %% "zio-config-typesafe" % "4.0.6",
   "eu.timepit" %% "refined" % "0.11.3"
