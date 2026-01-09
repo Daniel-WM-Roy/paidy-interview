@@ -15,7 +15,7 @@ OneFrame Service
 OneFrameInterpreter
 1) Build basic app ✓
 2) Create client to connect to OneFrame service ✓
-3) Cache requests to limit duplicate calls with lifetime of 5 minutes (basic version: hash map)
+3) Cache requests to limit duplicate calls with lifetime of 5 minutes (basic version: hash map) ✓
 4) Create docker images and docker-compose environment
 
 Optional
