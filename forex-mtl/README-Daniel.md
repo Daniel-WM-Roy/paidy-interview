@@ -16,13 +16,13 @@ OneFrameInterpreter
 1) Build basic app ✓
 2) Create client to connect to OneFrame service ✓
 3) Cache requests to limit duplicate calls with lifetime of 5 minutes (basic version: hash map) ✓
-4) Create docker images and docker-compose environment
+4) Hard limit OneFrame client to 1000 requests per day
+5) Create docker images and docker-compose environment
 
 Optional
-1) Delay sending call to OneFrame Service and collect incoming requests (it doesn't provide deadline for responses)
-2) Upgrade hash map to a fast-read database or something
-3) Make PostMan suite
-4) Improve error messages
+1) Upgrade hash map to a fast-read database or something
+2) Make PostMan suite
+3) Improve error messages
 
 
 Diary:
